@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+/*   
+  background-image: url("download.jpg");
+  background-repeat: no-repeat; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.bg{
+  background: url("download.jpg");
+  height: 755px;;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-evenly;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.arrange{
+  padding: 10%;
+  text-align: center;
+  height: 100%;
+  max-width: 100%;
+  /* color:rgb(25, 61, 151); */
+  
+}
+.rowArrange{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+}
+.cal{
+  margin-top: 0%;
+}
+.buttonArrange{
+  display:flex;
+  padding:10px 10px 10px 10px;
+  justify-content:space-between;
+  /* margin-left: 10px; */
+}
+.screen{
+  border:#61dafb;
+  border-style: double;
+  /* width:100px; */
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  color:aliceblue;
+}
+.container{
+        display: table;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+}
+.signup{
+  /* border:#61dafb; */
+  /* border-style: double; */
+  display :flex;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+  width:50%;
+  margin:auto;
+  /* border-radius: 10; */
+}
+.inputtag {
+  /* background-color: rgb(97, 164, 200); */
+  background-image: url('water.jpg');
+  /* background-position: 10px 10px; */
+  background-repeat: no-repeat;
+  background-size: auto;
+  /* padding-left: 10px; */
+}
+.signup-container{
+  position: absolute;
+  top: 25%;
+  border-style: groove;
+  padding: 50px;
+  background-image: url("navy.png");
+}
+.labeltext{
+  color:aqua;
+}
+.first{
+  display:flex
+}
+.middle{
+  float:left;
+  width:50%;
+}
+.last{
+  float:right;
+  width: 50%;
+}
+.parent {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  border: 1px solid red;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+.navigation{
+  height:50px;
+  width:100%;
+  background-color:bisque;
+  display:flex;
+  /* justify-content:space-between; */
+}
+.nav-but{
+  /* background-color: #d0b67d; */
+  height:50%;
+  margin-left: 10px;
+}
+.imge{
+  height:50px;
+  width:50px;
+}
